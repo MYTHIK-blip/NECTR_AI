@@ -1,0 +1,18 @@
+agent:
+  name: "nectr-alpha"
+  loop_interval: 5
+  mode: "PvE"  # Options: PvE, PvP, NP
+  persona: "observer"
+  deception_enabled: true
+
+memory:
+  type: "sqlite"
+  path: "data/memory.sqlite"
+
+telemetry:
+  enabled: true
+  log_path: "data/attack_logs/agent.log"
+
+swarm:
+  routing: "symbolic"  # Options: symbolic, rule, semantic
+  auto_spawn: false

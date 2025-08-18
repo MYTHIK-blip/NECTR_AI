@@ -1,0 +1,15 @@
+# Core agent operation
+openai
+pyyaml
+rich
+
+# Memory and persistence
+sqlite-utils
+
+# Input/output + scraping
+feedparser
+beautifulsoup4
+requests
+
+# CLI / output clarity
+typer
