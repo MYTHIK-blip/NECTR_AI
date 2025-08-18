@@ -1,0 +1,15 @@
+# config/optimization_rules.yaml
+
+loop_interval:
+  threshold: 30      # If more than this many loops with low variance, reduce interval
+
+telemetry:
+  error_rate_threshold: 0.2  # Placeholder for advanced logic later
+
+memory:
+  inactivity_window: 10  # If nothing novel appears in 10 entries, optimize persona or mode
+
+swarm:
+  auto_spawn_trigger:
+    memory_divergence: true
+    min_routes: 3
