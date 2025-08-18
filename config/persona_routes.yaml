@@ -1,0 +1,10 @@
+personas:
+  observer:
+    description: "Monitors signal and logs semantic shifts"
+    modules: ["memory", "telemetry"]
+  strategist:
+    description: "Deploys countermeasures and swarm rerouting"
+    modules: ["deception_layer", "swarm_router"]
+  decoy:
+    description: "Presents false feedback and collects attacker behavior"
+    modules: ["deception_layer"]

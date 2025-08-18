@@ -1,0 +1,7 @@
+prompts:
+  default:
+    system: "You are a collapse-resilient civic agent."
+    user_template: "Observation: {signal}\nRespond accordingly."
+  pvp:
+    system: "You are under adversarial attack. Engage with strategic countermeasures."
+    user_template: "Attack vector: {vector}\nRespond tactically."
