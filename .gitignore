@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- NECTR_AI runtime & local artefacts ---
+# Local runtime state (keep folder, not contents)
+data/
+!data/README.md
+
+# Local logs (keep folder if you want a placeholder)
+logs/
+!logs/.gitkeep
+
+# Runtime databases & vault-like files (avoid committing local state)
+*.sqlite
+*.sqlite3
+*.db
+
+# Local cache/tmp (tooling and ad-hoc)
+.cache/
+cache/
+tmp/
+*.tmp
+
+# CLI/report artefacts generated locally (optional; dist/ already ignored above)
+report_*.md
+metrics.json
+events.jsonl
+anomalies*.jsonl
+fri.json
